@@ -33,7 +33,7 @@ export default function InputPage() {
         履歴
       </Link>
 
-      <h1 className="text-4xl font-bold text-center">レジ締め入力</h1>
+      <h1 className="text-2xl md:text-3xl font-bold text-center">レジ締め入力</h1>
 
       {/* 日付・担当者 */}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
@@ -61,7 +61,7 @@ export default function InputPage() {
       </div>
 
       {/* 金種入力 */}
-      <h2 className="text-2xl font-semibold mb-3 border-b pb-1">金種の入力</h2>
+      <h2 className="text-2xl font-semibold mb-3 border-b pb-1">金額の入力</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {Object.keys(money).map(k => (
           <div key={k} className="flex items-center justify-between border p-4 rounded-2xl">
