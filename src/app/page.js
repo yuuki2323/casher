@@ -27,7 +27,7 @@ export default function InputPage() {
   };
 
   return (
-    <div className="relative max-w-2xl mx-auto p-6 sm:p-8 bg-white rounded-3xl shadow-lg space-y-6">
+    <div className="relative max-w-2xl mx-auto p-4 sm:p-4 bg-white rounded-3xl shadow-lg space-y-4">
       {/* 右上に履歴ボタン */}
       <div className=" flex justify-between">
       <Link href="/history" className="absolute top-4 right-4 bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-4 text-lg font-semibold transition">
