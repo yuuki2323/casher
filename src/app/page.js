@@ -29,12 +29,15 @@ export default function InputPage() {
   return (
     <div className="relative max-w-2xl mx-auto p-6 sm:p-8 bg-white rounded-3xl shadow-lg space-y-6">
       {/* 右上に履歴ボタン */}
+      <div className=" flex justify-between">
       <Link href="/history" className="absolute top-4 right-4 bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-4 text-lg font-semibold transition">
         履歴
       </Link>
 
       <h1 className="text-2xl md:text-3xl font-bold text-center">レジ締め入力</h1>
 
+      </div>
+     
       {/* 日付・担当者 */}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
         <div className="flex-1">
