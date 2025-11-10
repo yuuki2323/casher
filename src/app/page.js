@@ -7,7 +7,9 @@ import { addRecord } from "../../lib/supabaseCRUD";
 export default function InputPage() {
   const [date, setDate] = useState(() => new Date().toISOString().split("T")[0]);
   const [person, setPerson] = useState("SHIHO");
-
+  const [money, setMoney] = useState({
+    1: "", 5: "", 10: "", 50: "", 100: "", 500: "", 1000: "", 5000: "", 10000: ""
+  });
 
   const total = Object.entries(money).reduce((sum, [k, v]) => sum + Number(k) * Number(v), 0);
 
